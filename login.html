@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>光功能材料基因数据库</title>
+    <style>  
+      body {
+        margin: 0;
+      }
+    </style>
+</head>
+
+<body>
+
+<div style='
+    background-color:#f1f1f1;
+    text-align:center;
+    padding:10px;'>
+    <h2>光功能材料基因数据库 (网页版v0.0.1)</h2>
+    <img src="https://img2.baidu.com/it/u=3025923161,391175054&fm=253&fmt=auto&app=138&f=JPEG?w=602&h=500" alt="logo"
+         width="120px" height="100px">
+</div>
+
+
+<div style='
+    max-width:700px;
+    margin:30px auto;
+    padding:50px;
+    line-height:1.7;
+    '>
+
+    <p>---</p>
+    <p>用户登录</p>
+<form>
+  <input type='text' name='account' placeholder='Username'>
+</form>
+<form>
+  <input type='password' name='password' placeholder='Password'>
+</form>
+<form>
+  <input type='submit' value='Login'>
+  <input type='submit' value='Register'>
+  <input type='submit' value='Forget Password'>
+</form>
+
+    <p>           -               </p>
+
+<!--表单form提交给login.php-->
+<form method="post" action="login.php">
+    <table>
+        <tr>
+            <td>用户名</td>
+            <td>
+                <input type='text' name='username' placeholder='Username'>
+            </td>
+        </tr>
+        <tr>
+            <td>密码</td>
+            <td>
+                <input type='text' name='password' placeholder='Password'>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type='submit' value='登录'>
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+
+
+
+
+
+
+    <p>数据库查询</p>
+
+<form>
+  <input type='text' name='pwdr' placeholder=''><input type='submit' value='Submit'>
+</form>
+
+    <p>---</p>
+</div>
+
+<div style='
+    background-color:#f1f1f1;
+    text-align:center;
+    padding:10px;'>
+    <p>版权所有：光化学与光材料研究院</p>
+    <p>Copyright © 2021-2023 Institute of Photochemistry and Photofunctional Materials. All rights reserved.</p>
+    <p>-友情链接-</p>
+    <a target="_blank" rel="noopener noreferrer" href="https://www.baidu.com">百度</a>
+    <a target="_blank" rel="noopener noreferrer" href="https://www.cnki.net/">知网</a>
+    <a target="_blank" rel="noopener noreferrer" href="http://muchong.com/bbs/index.php">小木虫</a>
+</div>
+
+</body>
+</html>
